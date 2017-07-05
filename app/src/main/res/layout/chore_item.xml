@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/selectable_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/checkbox_off_background"
+        android:contentDescription="@string/chore_list_item"/>
+
+    <TextView
+        android:id="@+id/textView_chore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/text_margin"
+        android:layout_marginTop="@dimen/text_margin_small"
+        android:text="@string/chore_item_placeholder"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toRightOf="@+id/imageView_icon"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView_due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin_tiny"
+        android:paddingBottom="@dimen/text_margin_small"
+        android:text="@string/chore_due"
+        app:layout_constraintLeft_toLeftOf="@+id/textView_chore"
+        app:layout_constraintTop_toBottomOf="@+id/textView_chore"/>
+
+</android.support.constraint.ConstraintLayout>

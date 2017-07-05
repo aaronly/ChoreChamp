@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Base.Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="actionModeBackground">@color/colorPrimary</item>
+        <item name="actionModeCloseDrawable">@drawable/ic_close</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+
+        <item name="alertDialogTheme">@style/Theme.AppCompat.Dialog.Alert</item>
+
+    </style>
+
+    <style name="AppTheme.Dialog.Alert" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowSoftInputMode">adjustResize|adjustPan|stateAlwaysVisible</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark"/>
+
+</resources>

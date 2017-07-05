@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Chore Champ</string>
+
+    <string name="intent_chore_id">intent_chore_id</string>
+
+    <!-- Accessibility -->
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="chore_list_item">Chore</string>
+    <string name="achievement_list_item">Achievement</string>
+
+    <!-- Navigation -->
+    <string name="nav_parent_options">Parent Options</string>
+    <string name="nav_approve_chores">Approve Chores</string>
+    <string name="nav_delete_child">Delete Child</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Menu -->
+    <string name="action_achievements">Achievements</string>
+    <string name="action_approve_chores">Approve</string>
+    <string name="action_delete_chores">Delete</string>
+
+    <string name="child_none_found">No children found.</string>
+
+    <!-- Chores -->
+    <string name="title_chore_details">Chore Details</string>
+    <string name="chore_item_placeholder">Chore Item</string>
+    <string name="chore_name">Chore Name</string>
+    <string name="chore_due">Due:</string>
+    <string name="chore_due_placeholder">Every day by 10:00 PM</string>
+    <string name="chore_freq_once">Once</string>
+    <string name="chore_freq_recurring">Recurring</string>
+    <string name="chore_select_time">Select Time</string>
+    <string name="chore_select_date">Select Date</string>
+    <string name="chore_select_days">Select Days</string>
+    <string-array name="chore_days_of_the_week">
+        <item>Sundays</item>
+        <item>Mondays</item>
+        <item>Tuesdays</item>
+        <item>Wednesdays</item>
+        <item>Thursdays</item>
+        <item>Fridays</item>
+        <item>Saturdays</item>
+    </string-array>
+    <string name="title_chores_pending">Chores Pending Approval</string>
+
+    <!-- Achievements -->
+    <string name="title_achievements">Achievements</string>
+    <string name="achievement_item_placeholder">Achievement Item</string>
+    <string name="achievement_notification">You completed an achievement!</string>
+
+    <!-- Placeholders -->
+    <string name="home_fragment">Home Screen</string>
+    <string name="parent_name">Parent</string>
+
+    <!-- Add Child Dialog Fragment -->
+    <string name="title_add_child">Add a New Child</string>
+    <string name="button_save">Save</string>
+
+    <!-- Settings -->
+    <string name="title_settings">Settings</string>
+    <string name="settings_time_key">pref_time</string>
+    <string name="settings_time">Set default time chores are due</string>
+
+    <!-- Password -->
+    <string name="title_activity_set_password">Create Password</string>
+    <string name="title_set_password">Create Parental Password</string>
+    <string name="prompt_password">password</string>
+    <string name="prompt_confirm_password">confirm password</string>
+    <string name="title_enter_password">Enter Password:</string>
+    <string name="error_incorrect_password">Incorrect Password</string>
+    <string name="error_password_not_set">You must set a parental password before continuing.</string>
+    <string name="error_password_too_short">The password is too short. Must be 8 or more characters.</string>
+    <string name="error_password_match">The passwords do not match.</string>
+
+</resources>

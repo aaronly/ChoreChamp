@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/nav_child_list">
+
+    </group>
+
+    <item android:title="@string/nav_parent_options"
+          android:orderInCategory="10000">
+        <menu>
+            <item
+                android:id="@+id/nav_approve_chores"
+                android:icon="@drawable/ic_approve"
+                android:title="@string/nav_approve_chores"/>
+            <item
+                android:id="@+id/nav_delete_child"
+                android:icon="@drawable/ic_delete"
+                android:title="@string/nav_delete_child"/>
+            <item
+                android:id="@+id/nav_parent_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/nav_settings"/>
+        </menu>
+    </item>
+
+</menu>
